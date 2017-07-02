@@ -1,0 +1,238 @@
+.sky {
+   width: 500px;
+   height: 500px;
+   position: relative;
+   z-index: 1;
+   overflow: hidden;
+   background-color: #525252;
+}
+
+.cloudWrapper {
+   position: relative;
+   top: 50px;
+   left: -100px;
+   opacity: 0;
+   z-index: 3;
+}
+
+.cloud {
+   border-radius: 90px / 30px;
+   width: 160px;
+   height: 50px;
+   background: #fff;
+   position: absolute;
+   top: 10px;
+}
+
+.cloud2 {
+   left: 50px;
+   top: 0;
+}
+
+.cloud3 {
+   left: 110px;
+   top: 20px;
+}
+
+.sun {
+   background: #ffd630;
+   width: 130px;
+   height: 130px;
+   position: absolute;
+   border-radius: 70px;
+   z-index: 2;
+   bottom: 0;
+   left: 340px;
+}
+
+.moonWrapper {
+   position: relative;
+   opacity: 0;
+   top: 50px;
+   left: -100px;
+}
+
+.moon {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   background: #fff;
+   position: absolute;
+}
+
+.moon2 {
+   background: #525252;
+   position: absolute;
+   top: -20px;
+   left: 20px;
+}
+
+.ground {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 500px;
+   height: 154px;
+   background: #6c5228;
+   z-index: 4;
+}
+
+.animatesun {
+   animation-name: sunrise;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-delay: 0;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+}
+
+@keyframes sunrise {
+   0% {
+      bottom: 0;
+      left: 340px;
+      background: #f00;
+   }
+
+   33% {
+      bottom: 340px;
+      left: 340px;
+      background: #ffd630;
+   }
+
+   66% {
+      bottom: 340px;
+      left: 40px;
+      background: #ffd630;
+   }
+
+   100% {
+      bottom: 0;
+      left: 40px;
+      background: #f00;
+   }
+}
+
+.animatesky {
+   animation-name: sky;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-delay: 0;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+}
+
+@keyframes sky {
+   0% {
+      background-color: #525252;
+   }
+
+   33% {
+      background-color: #6293e5;
+   }
+
+   66% {
+      background-color: #6293e5;
+   }
+
+   100% {
+      background-color: #525252;
+   }
+}
+
+.animateground {
+   animation-name: ground;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-delay: 0;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+}
+
+@keyframes ground {
+   0% {
+      background: #6c5228;
+   }
+
+   33% {
+      background: #48a037;
+   }
+
+   66% {
+      background: #48a037;
+   }
+
+   100% {
+      background: #6c5228;
+   }
+}
+
+.animatecloud {
+   animation-name: cloud;
+   animation-duration: 12s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-delay: 0;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+}
+
+@keyframes cloud {
+   0% {
+      opacity: 0;
+      left: -100px;
+   }
+
+   50% {
+      opacity: 1;
+   }
+
+   75% {
+      opacity: 1;
+      left: 100px;
+   }
+
+   100% {
+      opacity: 0;
+      left: 500px;
+   }
+}
+
+.animatemoon {
+   animation-name: moon;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-delay: 0;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+}
+
+@keyframes moon {
+   0% {
+      opacity: 0;
+      left: -100px;
+   }
+
+   50% {
+      opacity: 0;
+      left: -100px;
+   }
+
+   90% {
+      opacity: 0;
+      left: -100px;
+   }
+
+   100% {
+      opacity: 1;
+      left: 50px;
+   }
+}

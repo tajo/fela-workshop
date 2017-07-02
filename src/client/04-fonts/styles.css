@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url('./pacifico.ttf');
+}
+
+.stylish {
+  font-family: 'Pacifico', cursive;
+}

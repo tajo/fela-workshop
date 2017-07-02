@@ -1,0 +1,8 @@
+.shorten {
+  display: inline-block;
+  max-width: 750px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}

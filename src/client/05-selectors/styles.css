@@ -1,0 +1,7 @@
+.header {
+  color: blue;
+}
+
+.header:hover {
+  text-decoration: line-through;
+}

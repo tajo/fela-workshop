@@ -1,0 +1,16 @@
+.box {
+  border: 5px solid black;
+  border-color: blue;
+}
+
+.loading {
+  color: white;
+  background-color: white;
+}
+
+.loading:before {
+  content: '…';
+  color: black;
+  display: block;
+  position: absolute;
+}

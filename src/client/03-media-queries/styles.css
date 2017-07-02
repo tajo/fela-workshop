@@ -1,0 +1,17 @@
+.block1 {
+  display: none;
+}
+
+.block2 {
+  display: block;
+}
+
+@media (min-width: 64em) {
+  .block1 {
+    display: block;
+  }
+
+  .block2 {
+    display: none;
+  }
+}
