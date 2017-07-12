@@ -2,6 +2,15 @@ import React from 'react';
 import { createComponent } from 'cf-style-container';
 import { button, active } from './styles.css';
 
+const Button = createComponent(
+  ({ active }) => ({
+    padding: '2rem',
+    backgroundColor: active ? '#ccc' : 'white'
+  }),
+  'button',
+  ['onClick']
+);
+
 export default class DynamicStyles extends React.Component {
   constructor(props) {
     super(props);
@@ -25,6 +34,9 @@ export default class DynamicStyles extends React.Component {
         >
           Hit me
         </button>
+        <Button active={this.state.active} onClick={this.handleClick}>
+          Hit me
+        </Button>
       </article>
     );
   }

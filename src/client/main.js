@@ -13,15 +13,8 @@ import Keyframes from './10-keyframes/';
 import './styles.css';
 
 export default () =>
-  <div>
-    <BasicSyntax />
-    <DynamicStyles />
-    <MediaQueries />
-    <Fonts />
-    <Selectors />
-    <Prefixes />
-    <Fallbacks />
-    <Polished />
-    <Gotchas />
-    <Keyframes />
-  </div>;
+  <StyleProvider dev>
+    <div>
+      <DynamicStyles />
+    </div>
+  </StyleProvider>;

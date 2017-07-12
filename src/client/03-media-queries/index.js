@@ -2,6 +2,20 @@ import React from 'react';
 import { createComponent } from 'cf-style-container';
 import { block1, block2 } from './styles.css';
 
+const Block1 = createComponent(() => ({
+  display: 'none',
+  desktop: {
+    display: 'block'
+  }
+}));
+
+const Block2 = createComponent(() => ({
+  display: 'block',
+  desktop: {
+    display: 'none'
+  }
+}));
+
 export default () =>
   <article>
     <h1>3. Media Queries</h1>
@@ -9,4 +23,8 @@ export default () =>
     <div className={block2}>
       This is too <strong>narrow</strong>
     </div>
+    <Block1>This is too wide</Block1>
+    <Block2>
+      This is too <strong>narrow</strong>
+    </Block2>
   </article>;
