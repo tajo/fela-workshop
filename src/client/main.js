@@ -15,6 +15,6 @@ import './styles.css';
 export default () =>
   <StyleProvider dev>
     <div>
-      <DynamicStyles />
+      <Selectors />
     </div>
   </StyleProvider>;

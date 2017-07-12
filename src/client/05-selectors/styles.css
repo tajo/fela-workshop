@@ -5,3 +5,16 @@
 .header:hover {
   text-decoration: line-through;
 }
+
+.btn {
+  background-color: orange;
+  margin-left: 25px;
+}
+
+.btn + .btn {
+  margin: 0px;
+}
+
+.btn > span {
+  font-size: 20px;
+}

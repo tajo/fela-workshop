@@ -8,7 +8,7 @@
   background-color: white;
 }
 
-.loading:before {
+.loading::before {
   content: '…';
   color: black;
   display: block;
