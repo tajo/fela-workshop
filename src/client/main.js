@@ -10,20 +10,12 @@ import Fallbacks from './07-fallbacks/';
 import Polished from './08-polished/';
 import Gotchas from './09-gotchas/';
 import Keyframes from './10-keyframes/';
+import Testing from './11-testing/';
 import './styles.css';
 
 export default () =>
   <StyleProvider dev>
     <div>
-      <BasicSyntax />
-      <DynamicStyles />
-      <MediaQueries />
-      <Fonts />
-      <Selectors />
-      <Prefixes />
-      <Fallbacks />
-      <Polished />
-      <Gotchas />
-      <Keyframes />
+      <Testing />
     </div>
   </StyleProvider>;
