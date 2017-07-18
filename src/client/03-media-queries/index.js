@@ -1,3 +1,6 @@
+// This demonstrates usage of
+// https://github.com/rofrischmann/fela/tree/master/packages/fela-plugin-named-media-query
+
 import React from 'react';
 import { createComponent } from 'cf-style-container';
 import { block1, block2 } from './styles.css';

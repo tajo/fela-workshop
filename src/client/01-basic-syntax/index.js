@@ -1,3 +1,6 @@
+// This is a basic CSS syntax, not surprises here
+// CSS in JS is using camelCase
+
 import React from 'react';
 import { square } from './styles.css';
 import { createComponent } from 'cf-style-container';

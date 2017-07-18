@@ -15,6 +15,15 @@ import './styles.css';
 export default () =>
   <StyleProvider dev>
     <div>
+      <BasicSyntax />
+      <DynamicStyles />
+      <MediaQueries />
+      <Fonts />
       <Selectors />
+      <Prefixes />
+      <Fallbacks />
+      <Polished />
+      <Gotchas />
+      <Keyframes />
     </div>
   </StyleProvider>;

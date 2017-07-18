@@ -1,3 +1,6 @@
+// Dynamic styles in CSS = flipping CSS classnames
+// Dynamic styles in CSS in JS = ternary
+
 import React from 'react';
 import { createComponent } from 'cf-style-container';
 import { button, active } from './styles.css';

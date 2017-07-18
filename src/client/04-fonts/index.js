@@ -1,3 +1,6 @@
+// How to define a font?
+// Use https://github.com/rofrischmann/fela/tree/master/packages/fela-plugin-embedded !
+
 import React from 'react';
 import { createComponent } from 'cf-style-container';
 import { stylish } from './styles.css';
