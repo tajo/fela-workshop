@@ -11,13 +11,13 @@ import Polished from './08-polished/';
 import Gotchas from './09-gotchas/';
 import Keyframes from './10-keyframes/';
 import Testing from './11-testing/';
-import Advanced from './12-advanced/';
+import Integration from './12-integration/';
 import './styles.css';
 
 export default () =>
   <StyleProvider dev>
     <div>
       <Testing />
-      <Advanced />
+      <Integration />
     </div>
   </StyleProvider>;

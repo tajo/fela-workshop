@@ -17,6 +17,6 @@ const markup = `
 
 export default () =>
   <article>
-    <h1>12. Advanced</h1>
+    <h1>12. Integration</h1>
     <div dangerouslySetInnerHTML={{ __html: markup }} />
   </article>;
