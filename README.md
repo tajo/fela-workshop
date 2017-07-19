@@ -22,6 +22,8 @@ We also use our own flavor of [createComponent](https://github.com/cloudflare/cf
 8. [Polished](src/client/08-polished/index.js)
 9. [Gotchas](src/client/09-gotchas/index.js)
 10. [Keyframes](src/client/10-keyframes/index.js) (w/o solution, it is a homework)
+11. [Testing](src/client/11-testing/index.js)
+12. [Integration](src/client/12-integration/index.js)
 
 ## Prerequisites
 

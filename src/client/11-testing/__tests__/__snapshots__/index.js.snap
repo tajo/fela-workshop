@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`active button renders 1`] = `
+<button
+  className="a b"
+  onClick={undefined}
+>
+  Haiii
+</button>
+`;
+
+exports[`active button renders 2`] = `
+"
+.a {
+  padding: 2rem
+}
+
+.b {
+  background-color: #ccc
+}
+"
+`;
+
+exports[`button renders 1`] = `
+<button
+  className="a b"
+  onClick={undefined}
+>
+  Hai
+</button>
+`;
+
+exports[`button renders 2`] = `
+"
+.a {
+  padding: 2rem
+}
+
+.b {
+  background-color: black
+}
+"
+`;

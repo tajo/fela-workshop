@@ -18,8 +18,6 @@ import './styles.css';
 export default () =>
   <StyleProvider dev>
     <div>
-      <Testing />
       <Integration />
-      <Advanced />
     </div>
   </StyleProvider>;

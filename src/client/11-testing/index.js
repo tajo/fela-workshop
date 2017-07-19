@@ -1,19 +1,12 @@
 // Testing with Jest and Enzyme
+
 import React from 'react';
 import { createComponent } from 'cf-style-container';
 
 export const Button = createComponent(
   ({ active }) => ({
     padding: '2rem',
-    backgroundColor: active ? '#ccc' : 'white'
-  }),
-  'button',
-  ['onClick']
-);
-
-export const Something = createComponent(
-  ({ active }) => ({
-    padding: '5rem'
+    backgroundColor: active ? '#ccc' : 'black'
   }),
   'button',
   ['onClick']

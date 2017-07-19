@@ -9,7 +9,8 @@
     "start": "node webpack/index | NODE_ENV=development node src/server",
     "build": "npm run clean && NODE_ENV=production webpack --config webpack/config.prod.babel.js --progress",
     "server": "NODE_ENV=production node src/server",
-    "prettier": "node prettier.js"
+    "prettier": "node prettier.js",
+    "test": "jest"
   },
   "dependencies": {
     "babel-core": "^6.8.0",
