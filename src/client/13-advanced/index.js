@@ -1,6 +1,6 @@
 import React from 'react';
 import { createComponent } from 'cf-style-container';
-import Button from './button';
+import Button from './Button';
 
 const Advanced = () =>
   <article>
