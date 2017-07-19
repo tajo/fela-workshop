@@ -12,6 +12,7 @@ import Gotchas from './09-gotchas/';
 import Keyframes from './10-keyframes/';
 import Testing from './11-testing/';
 import Integration from './12-integration/';
+import Advanced from './13-advanced/';
 import './styles.css';
 
 export default () =>
@@ -19,5 +20,6 @@ export default () =>
     <div>
       <Testing />
       <Integration />
+      <Advanced />
     </div>
   </StyleProvider>;
