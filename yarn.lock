@@ -945,22 +945,11 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-cf-style-const@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/cf-style-const/-/cf-style-const-1.6.2.tgz#978ae7c2c7c4b6077543ba7abb6bbf4e2b8bb7e0"
+cf-style-const@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cf-style-const/-/cf-style-const-2.0.0.tgz#657751009a394a3de55c195e0827d691b3015bf8"
   dependencies:
     polished "^1.2.1"
-
-cf-style-container@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/cf-style-container/-/cf-style-container-1.3.3.tgz#076e1441a2c88cae5459dccb3d87378e85adc198"
-  dependencies:
-    fela "^5.0.0"
-    fela-utils "^5.0.2"
-    prop-types "^15.5.8"
-    react-fela "^5.0.0"
-    seamless-immutable "^7.1.2"
-    underscore.string "^3.3.4"
 
 cf-style-container@^4.1.0:
   version "4.1.0"
@@ -973,11 +962,11 @@ cf-style-container@^4.1.0:
     seamless-immutable "^7.1.2"
     underscore.string "^3.3.4"
 
-cf-style-provider@^2.0.2:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/cf-style-provider/-/cf-style-provider-2.2.1.tgz#51426eb367b8deb31b612c1ee52546a728f9c485"
+cf-style-provider@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/cf-style-provider/-/cf-style-provider-2.2.2.tgz#d63fb6205ad64b8100e2849166a61b3f445c391e"
   dependencies:
-    cf-style-const "^1.6.2"
+    cf-style-const "^2.0.0"
     cf-style-container "^4.1.0"
     fela "^5.0.0"
     fela-beautifier "^5.0.0"

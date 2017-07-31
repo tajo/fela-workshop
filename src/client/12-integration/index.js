@@ -14,6 +14,8 @@ const styles = () => ({
   margin: '2rem'
 });
 
+const Square = createComponent(styles);
+
 // typical way how to integrate
 const getMarkupString = renderer => {
   const className = renderer.renderRule(styles);
