@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-register": "^6.8.0",
     "babel-runtime": "^6.6.1",
+    "cf-component-box": "^2.6.3",
     "cf-style-container": "^4.1.0",
     "cf-style-provider": "^2.2.2",
     "compression": "^1.6.1",

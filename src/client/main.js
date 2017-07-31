@@ -13,11 +13,12 @@ import Keyframes from './10-keyframes/';
 import Testing from './11-testing/';
 import Integration from './12-integration/';
 import Advanced from './13-advanced/';
+import Themes from './14-themes/';
 import './styles.css';
 
 export default () =>
   <StyleProvider dev>
     <div>
-      <Integration />
+      <Themes />
     </div>
   </StyleProvider>;
