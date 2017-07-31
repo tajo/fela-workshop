@@ -26,6 +26,7 @@ We also use our own flavor of [createComponent](https://github.com/cloudflare/cf
 12. [Integration](src/client/12-integration/index.js)
 13. [Advanced](src/client/13-advanced/index.js)
 14. [Themes](src/client/14-themes/index.js)
+15. [Composition](src/client/15-composition/index.js)
 
 ## Prerequisites
 

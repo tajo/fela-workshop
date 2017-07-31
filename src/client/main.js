@@ -14,11 +14,26 @@ import Testing from './11-testing/';
 import Integration from './12-integration/';
 import Advanced from './13-advanced/';
 import Themes from './14-themes/';
+import Composition from './15-composition/';
 import './styles.css';
 
 export default () =>
   <StyleProvider dev>
     <div>
+      <BasicSyntax />;
+      <DynamicStyles />
+      <MediaQueries />
+      <Fonts />
+      <Selectors />
+      <Prefixes />
+      <Fallbacks />
+      <Polished />
+      <Gotchas />
+      <Keyframes />
+      <Testing />
+      <Integration />
+      <Advanced />
       <Themes />
+      <Composition />
     </div>
   </StyleProvider>;
